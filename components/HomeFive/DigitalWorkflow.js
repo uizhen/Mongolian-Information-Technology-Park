@@ -7,36 +7,38 @@ const DigitalWorkflow = () => {
 				<div className="row align-items-center">
 					<div className="col-lg-6 pr-0">
 						<div className="transform-img">
-							<img src="/img/transform-img.jpg" alt="Image" />
+							<img src="/img/transform-img.png" alt="Image" />
 						</div>
 					</div>
 
 					<div className="col-lg-6 pl-0">
 						<div className="transform-content transform-content-five">
-							<h2>Transform Your Digital Workflow Be productive Reduce risk</h2>
-							<p>Lorem ipsum dolor sit elit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse Workflow Be productive consectetur adipiscing elit, sed</p>
+							<h2>Өөрийн санааг бодитой болгон хэрэгжүүлэхийн тулд</h2>
+							<p>Чадварлаг хамт олон, санаа нэгтэй залуусаас гадна тухайн хийж буй ажлыг өмнө нь гүйцэтгэж байсан туршлагатай ментор, зөвлөхийн
+								туршлага юунаас илүү үнэ цэнэтэй. Инкубатор компаниуддаа ITPark туршлагатай судлаач мэргэжилтнүүдтэй холбох гүүр болон ажилладаг.
+							</p>
 
 							<div className="skills">
 								<div className="skill-item">
 									<div className="skill-header">
-										<h3 className="skill-title">Development</h3>
+										<h3 className="skill-title">Багийн ур чадвар</h3>
 										<div className="skill-percentage">
 											<div className="count-box">
-												<span className="count-text">50</span>%
+												<span className="count-text">80</span>%
 											</div>
 										</div>
 									</div>
 
 									<div className="skill-bar">
 										<div className="progress">
-											<div className="progress-bar" style={{width: "50%"}} role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+											<div className="progress-bar" style={{width: "80%"}} role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 									</div>
 								</div>
 								
 								<div className="skill-item">
 									<div className="skill-header">
-										<h3 className="skill-title">Design</h3>
+										<h3 className="skill-title">Бизнес санаа</h3>
 
 										<div className="skill-percentage"><div className="count-box"><span className="count-text">75</span>%</div></div>
 									</div>
@@ -50,7 +52,7 @@ const DigitalWorkflow = () => {
 								
 								<div className="skill-item">
 									<div className="skill-header">
-										<h3 className="skill-title">Marketing</h3>
+										<h3 className="skill-title">Судалгаа шинжилгээ</h3>
 
 										<div className="skill-percentage"><div className="count-box"><span className="count-text">95</span>%</div></div>
 									</div>

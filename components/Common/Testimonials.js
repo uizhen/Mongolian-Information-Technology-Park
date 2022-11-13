@@ -36,8 +36,8 @@ const Testimonials = () => {
         <section className="client-area ptb-100">
             <div className="container">
                 <div className="section-title white-title">
-					<h2>What Client’s Say About Us</h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam neque quibusdam corrupti aspernatur corporis alias nisi dolorum expedita veritatis voluptates minima.</p>
+					<h2>Мэдээлэл технологийн паркийн талаар мэргэжилтнүүд</h2>
+					<p>Завгүй өнгөрөөсөн 40 жилийн турш бидэнтэй хамтран ажилласан та бүхний сэтгэлийн ханамж бидний гол бахархал юм.</p>
 				</div>
 
                 {display ? <OwlCarousel 
@@ -46,7 +46,9 @@ const Testimonials = () => {
                 > 
                     <div className="single-client">
                         <i className="quotes bx bxs-quote-alt-left"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Нэгэн гэр бүл мэт найрсаг энэхүү байгууллагатай хамтран ажиллах хугацаанд хамт байсан сурах мэдэхийн мөрөөсөл болсон залуусын
+                            ирээдүйн зам нь дардан байх болтугай.
+                        </p>
 
                         <ul>
                             <li><i className="bx bxs-star"></i></li>
@@ -57,15 +59,17 @@ const Testimonials = () => {
                         </ul>
 
                         <div className="client-img">
-                            <img src="/img/client-img/client1.jpg" alt="Image" />
-                            <h3>Alen Meair</h3>
-                            <span>Developer</span>
+                            <img src="/img/client-img/client.jpg" alt="Image" />
+                            <h3>Ч.Урианхай</h3>
+                            <span>Мэргэжил</span>
                         </div>
                     </div>
 
                     <div className="single-client">
                         <i className="quotes bx bxs-quote-alt-left"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Ирээдүй болсон залуу судлаачдыг хөгжих суралцахад дэм болсон энэхүү байгууллагын үйл ажиллагааг дэмжин хамтран ажиллахад үнэхээр
+                            таатай байлаа.
+                        </p>
 
                         <ul>
                             <li><i className="bx bxs-star"></i></li>
@@ -76,15 +80,16 @@ const Testimonials = () => {
                         </ul>
 
                         <div className="client-img">
-                            <img src="/img/client-img/client2.jpg" alt="Image" />
-                            <h3>Axon Detos</h3>
-                            <span>CEO</span>
+                            <img src="/img/client-img/client.jpg" alt="Image" />
+                            <h3>Б.Гантулга</h3>
+                            <span>Мэргэжил</span>
                         </div>
                     </div>
 
                     <div className="single-client">
                         <i className="quotes bx bxs-quote-alt-left"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Шинжлэх ухаан хөгжихөд судалгаа шинжилгээ нэн тэргүүнд шаардагдана. Хөгжлийн энэ асар их өлсгөлөнг нөхөхчадварлаг инженерүүд бэлтгэхэд нь
+							ажлын амжилт хүсье.</p>
 
                         <ul>
                             <li><i className="bx bxs-star"></i></li>
@@ -95,15 +100,16 @@ const Testimonials = () => {
                         </ul>
 
                         <div className="client-img">
-                            <img src="/img/client-img/client3.jpg" alt="Image" />
-                            <h3>John Dona</h3>
-                            <span>Designer</span>
+                            <img src="/img/client-img/client.jpg" alt="Image" />
+                            <h3>Ц.Цэлмэг</h3>
+                            <span>Мэргэжил</span>
                         </div>
                     </div>
 
                     <div className="single-client">
                         <i className="quotes bx bxs-quote-alt-left"></i>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>Мэдээллийн технологи бол шинэ залуусын тэргүүлэх салбар. Үүнийг дагах өндөр хэмжээний хариуцлага, ур чадварт хүрсэн ITPark-н залуусдаа
+							энэ эрчээ алдахгүй байхыг зөвлөж байна.</p>
 
                         <ul>
                             <li><i className="bx bxs-star"></i></li>
@@ -114,9 +120,9 @@ const Testimonials = () => {
                         </ul>
                         
                         <div className="client-img">
-                            <img src="/img/client-img/client4.jpg" alt="Image" />
-                            <h3>Jon Smith</h3>
-                            <span>Developer</span>
+                            <img src="/img/client-img/client.jpg" alt="Image" />
+                            <h3>Б.Ган-Эрдэнэ</h3>
+                            <span>Мэргэжил</span>
                         </div>
                     </div>
                 </OwlCarousel> : ''}

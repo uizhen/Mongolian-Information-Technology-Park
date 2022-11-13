@@ -63,7 +63,7 @@ const NavbarFive = () => {
                                         <li className="nav-item">
                                             <Link href="/#" activeClassName="active">
                                                 <a onClick={e => e.preventDefault()} className="nav-link">
-                                                    Home <i className='bx bx-chevron-down'></i>
+                                                    Нүүр<i className='bx bx-chevron-down'></i>
                                                 </a>
                                             </Link>
 

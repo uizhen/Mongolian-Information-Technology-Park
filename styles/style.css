@@ -80,13 +80,13 @@ button:focus {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #0e0129;
   font-weight: 700;
-  font-family: "Barlow Condensed", sans-serif;
-  text-transform: capitalize;
+  font-family: "barlow condensed", sans-serif;
+  /* text-transform: capitalize; */
 }
 
 h3 {
   font-size: 25px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 600;
 }
 
@@ -102,6 +102,7 @@ h3 {
 p {
   font-size: 15px;
   margin-bottom: 15px;
+  text-indent: 30px;
 }
 
 p:last-child {
@@ -1512,6 +1513,7 @@ Security Area Style
   margin-bottom: 30px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  text-align: j;
 }
 
 .single-security i {
@@ -1657,6 +1659,14 @@ Solutions Area Style
 
 .single-solutions.solutions-time-bg-9 {
   background-image: url(/img/projects/project3.jpg);
+}
+
+.single-solutions.solutions-time-bg-10 {
+  background-image: url(/img/projects/project4.jpg);
+}
+
+.single-solutions.solutions-time-bg-11 {
+  background-image: url(/img/projects/project5.jpg);
 }
 
 .single-solutions::before {

@@ -58,8 +58,8 @@ const FaqForm = () => {
 						<div className="contact-wrap">
 							<div className="contact-form">
 								<div className="section-title">
-									<h2>Ask Questions</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, libero harum cum numquam repellendus autem recusandae voluptatem, asperiores iusto magni reprehenderit</p>
+									<h2>Бид үргэлж таньд нээлттэй</h2>
+									<p>Та хүссэн мэдээллээ авахыг хүсвэл доорх бүртгэлээр бүтгүүлэн манай менежертэй шууд холбогдох боломжтой.</p>
 								</div>
 
 								<form onSubmit={handleSubmit}>
@@ -69,7 +69,7 @@ const FaqForm = () => {
 												<input 
 													type="text" 
 													name="name" 
-													placeholder="Name" 
+													placeholder="Овог, Нэр" 
 													className="form-control" 
 													value={contact.name}
 													onChange={handleChange} 
@@ -82,7 +82,7 @@ const FaqForm = () => {
 												<input 
 													type="text" 
 													name="email" 
-													placeholder="Email" 
+													placeholder="Цахим хаяг" 
 													className="form-control" 
 													value={contact.email}
 													onChange={handleChange} 
@@ -95,7 +95,7 @@ const FaqForm = () => {
 												<input 
 													type="text" 
 													name="number" 
-													placeholder="Phone number" 
+													placeholder="Утасны дугаар" 
 													className="form-control" 
 													value={contact.number}
 													onChange={handleChange} 
@@ -108,7 +108,7 @@ const FaqForm = () => {
 												<input 
 													type="text" 
 													name="subject" 
-													placeholder="Subject" 
+													placeholder="Толгой" 
 													className="form-control" 
 													value={contact.subject}
 													onChange={handleChange} 
@@ -122,7 +122,7 @@ const FaqForm = () => {
 													name="text" 
 													cols="30" 
 													rows="7" 
-													placeholder="Write your message..." 
+													placeholder="Та хэлэх зүйлээ үлдээнэ үү..." 
 													className="form-control" 
 													value={contact.text}
 													onChange={handleChange} 
@@ -132,7 +132,7 @@ const FaqForm = () => {
 										</div>
 										<div className="col-lg-12 col-sm-12">
 											<button type="submit" className="default-btn page-btn">
-												Send Message
+												Захидал илгээх
 											</button>
 										</div>
 									</div>

@@ -1,12 +1,16 @@
 import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
+import DirectorMessage from '../components/Blog/DirectorMessage';
 import EffectiveProtection from '../components/HomeOne/EffectiveProtection';
 import ElectronicProtection from '../components/HomeOne/ElectronicProtection';
 import SecurityApproach from '../components/HomeOne/SecurityApproach';
+import TeamCard from '../components/Team/TeamCard';
 import Testimonials from '../components/Common/Testimonials';
 import Partner from '../components/Common/Partner';
+import FaqForm from '../components/Faq/FaqForm';
 import Footer from '../components/_App/Footer';
+
 
 const About = () => {
     return (
@@ -14,12 +18,14 @@ const About = () => {
             <Navbar />
 
             <PageBanner 
-                pageTitle="About" 
+                pageTitle="Бидний тухай" 
                 homePageUrl="/" 
-                homePageText="Home" 
-                activePageText="About" 
+                homePageText="Нүүр" 
+                activePageText="Бидний тухай" 
             /> 
-        
+
+            <DirectorMessage />
+
             <EffectiveProtection />
 
             <ElectronicProtection />
@@ -28,9 +34,13 @@ const About = () => {
                 <SecurityApproach />
             </div>
 
+            <TeamCard />
+
             <Testimonials />
 
             <Partner />
+
+            <FaqForm />
             
             <Footer />
         </>

@@ -57,18 +57,18 @@ const MainBanner = () => {
 								<div className="row align-items-center">
 									<div className="col-lg-9">
 										<div className="slider-text one">
-											<h1>Cyber Security & IT Management</h1>
-											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto laborum eaque! Deserunt maxime, minus quas molestiae reiciendis esse natus nisi iure.</p>
+											<h1>Welcome to Mongolian National Information Technology Park</h1>
+											<p>Монголын хамгийн мэдээллийн технологийн парк нь үүсгэн байгуулагдаад даруй дөчин жилийг өнгөрөөжээ.</p>
 		
 											<div className="slider-btn">
 												<Link href="/contact">
 													<a className="default-btn">
-														Contact Us
+														Холбоо барих
 													</a>
 												</Link>
 												<Link href="/about">
 													<a className="default-btn active">
-														Learn More
+														Бидний тухай
 													</a>
 												</Link>
 											</div>
@@ -98,18 +98,17 @@ const MainBanner = () => {
 								<div className="row align-items-center">
 									<div className="col-lg-9">
 										<div className="slider-text two">
-											<h1>Cyber Security Is Not Optional</h1>
-											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto laborum eaque! Deserunt maxime, minus quas molestiae reiciendis esse natus nisi iure.</p>
-											
+											<h1>Таны санааг ажил болгоход бид туслана</h1>
+											<p>Монголын цахим бизнес эрхлэгчдийн өлгий болсон "Монголын мэдээлэл,<br/>технологийн үндэсний парк" таны ирээдүйн бизнесийн гараа.</p>
 											<div className="slider-btn">
 												<Link href="/contact">
 													<a className="default-btn">
-														Contact Us
+														Холбоо барих
 													</a>
 												</Link>
 												<Link href="/about">
 													<a className="default-btn active">
-														Learn More
+														Бидний тухай
 													</a>
 												</Link>
 											</div>

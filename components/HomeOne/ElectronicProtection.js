@@ -26,7 +26,7 @@ class ElectronicProtection extends Component {
 					<div className="row align-items-center">
 						<div className="col-lg-6">
 							<div className="electronic-content">
-								<h2>Innovative Electronic Protection of Your Office and Home Control Online</h2>
+								<h2>Манай байгууллагын үндсэн чиглэл</h2>
 								<div className="electronic-tab-wrap">
 									<div className="tab electronic-tab">
 										{/* Tabs Nav */}
@@ -35,79 +35,77 @@ class ElectronicProtection extends Component {
 												className="current"
 												onClick={(e) => this.openTabSection(e, 'tab1')}
 											>
-												Intercom System
+												Төлөвлөгөө
 											</li>
 											<li
 												onClick={(e) => this.openTabSection(e, 'tab2')}
 											>
-												CCTV
+												Хамтын ажиллагаа
 											</li>
 											<li
 												onClick={(e) => this.openTabSection(e, 'tab3')}
 											>
-												GDPR
+												Стандарт
 											</li>
 											<li
 												onClick={(e) => this.openTabSection(e, 'tab4')}
 											>
-												Encryption
+												Инкубатор
 											</li>
 											<li
 												onClick={(e) => this.openTabSection(e, 'tab5')}
 											>
-												Our Goal
+												Технологи
 											</li>
 										</ul>
 
 										{/* Tab Content */}
 										<div className="tab_content">
 											<div id="tab1" className="tabs_item">
-												<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero, vero corporis voluptates beatae pariatur laudantium, fugiat illum ab deserunt nostrum aliquid quisquam esse? Voluptatibus quia velit numquam esse porro ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero, corporis.</p>
-		
-												<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius?</p>
+												<p>Дундын болон урт хугацааны төлөвлөгөөг боловсруулж хэрэгжүүлэх</p>
+												<p>Байгууллагын үйл ажиллагааг өргөжүүлэх, арга замыг боловсруулах хэрэгжүүлэх</p>
 												
 												<Link href="/about">
-													<a className="default-btn">Learn About</a>
+													<a className="default-btn">Дэлгэрэнгүй</a>
 												</Link>
 											</div>
 
 											<div id="tab2" className="tabs_item">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+												<p>Хамтрагч байгууллагуудын өмнө хүлээсэн үүргээ нэр төртэй биелүүлэх</p>
 
-												<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+												<p>Хөдөлмөрийн бүтээмжийг сайжруулах, урт хугацааны үнэ цэнийг нэмэгдүүлэх</p>
 
 												<Link href="/about">
-													<a className="default-btn">Learn About</a>
+													<a className="default-btn">Дэлгэрэнгүй</a>
 												</Link>
 											</div>
 
 											<div id="tab3" className="tabs_item">
-												<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+												<p>Олон улсын стандартад нийцсэн мэдээлэл, харилцаа холбооны технологийн суурь төв байх</p>
 												
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+												<p>Монгол хүнд зориулсан мэдлэг, ур чадвар олгох бүх нийтийн сургалт, шалгалт, арга хэмжээ зохион байгуулах</p>
  
 												<Link href="/about">
-													<a className="default-btn">Learn About</a>
+													<a className="default-btn">Дэлгэрэнгүй</a>
 												</Link>
 											</div>
 
 											<div id="tab4" className="tabs_item">
-												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+												<p>Гарааны бизнес эрхлэх зорилгодоо хүрэхэд шаардлагатай орчин нөхцлийг бүрдүүлэх</p>
 
-												<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique</p>
-
+												<p>Бүтээлч санааг дэмжиж, гадаад дотоодын зах зээлд эзлэх байр суурийг бэхжүүлэх, дэмжих</p>
 												<Link href="/about">
-													<a className="default-btn">Learn About</a>
+													<a className="default-btn">Дэлгэрэнгүй</a>
 												</Link>
 											</div>
 
 											<div id="tab5" className="tabs_item">
-												<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique</p>
+												<p>Оюуны өмчийн бүтээгдэхүүн үйлдвэрлэлийг дэмжих, эдийн засгийн эргэлтэд оруулах</p>
 												
-												<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+												<p>Технологи ба инновацийг дэмжих төвтэй болох, үйл ажиллагааг өргөжүүлэх, соёлыг төлөвшүүлэх</p>
  
 												<Link href="/about">
-													<a className="default-btn">Learn About</a>
+													<a className="default-btn">Дэлгэрэнгүй</a>
 												</Link>
 											</div>
 										</div>

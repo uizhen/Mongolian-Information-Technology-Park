@@ -6,7 +6,7 @@ const LatesNews = () => {
         <section className="blog-area pb-70">
 			<div className="container">
 				<div className="section-title">
-					<h2>Latest News From Blog</h2>
+					<h2>Сүүлийн үеийн техник технологийн мэдээ</h2>
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam neque quibusdam corrupti aspernatur corporis alias nisi dolorum expedita veritatis voluptates minima.</p>
 				</div>
 

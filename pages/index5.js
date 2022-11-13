@@ -1,40 +1,45 @@
 import React from 'react';
 import Navbar from '../components/_App/Navbar';
-import MainBanner from '../components/HomeFive/MainBanner';
+import MainBanner from '../components/HomeOne/MainBanner';
 import Partner from '../components/Common/Partner';
-import HighPerformanceSolutions from '../components/HomeFive/HighPerformanceSolutions';
-import DigitalWorkflow from '../components/HomeFive/DigitalWorkflow';
-import PricingPlan from '../components/Pricing/PricingPlan';
-import WhyChooseUsStyleTwo from '../components/Common/WhyChooseUsStyleTwo';
-import ExpertTeam from '../components/Common/ExpertTeam';
-import RecentProjects from '../components/Common/RecentProjects';
-import CyberSecuritySatisticsGraph from '../components/HomeFive/CyberSecuritySatisticsGraph';
-import FaqStyleTwo from '../components/Common/FaqStyleTwo';
+import WebsiteSecurity from '../components/HomeOne/WebsiteSecurity';
+import SecurityApproach from '../components/HomeOne/SecurityApproach';
+import HighPerformanceSolutions from '../components/HomeOne/HighPerformanceSolutions';
+import ElectronicProtection from '../components/HomeOne/ElectronicProtection';
+import EffectiveProtection from '../components/HomeOne/EffectiveProtection';
 import Testimonials from '../components/Common/Testimonials';
-import LatesNewStyleTwo from '../components/Common/LatesNewStyleTwo';
+import CyberSecurityOperation from '../components/HomeOne/CyberSecurityOperation';
+import LatesNews from '../components/Common/LatesNews';
 import Footer from '../components/_App/Footer';
 
-const Index5 = () => {
+const Index = () => {
     return (
         <>
             <Navbar />
+
             <MainBanner />
+
             <Partner />
+
+            <WebsiteSecurity />
+
+            <SecurityApproach />
+
             <HighPerformanceSolutions />
-            <DigitalWorkflow />
-            <PricingPlan />
-            <WhyChooseUsStyleTwo />
-            <ExpertTeam />
-            <RecentProjects />
-            <CyberSecuritySatisticsGraph />
-            <FaqStyleTwo />
+
+            <ElectronicProtection />
+
+            <EffectiveProtection />
+
             <Testimonials />
-            <div className="pt-100">
-                <LatesNewStyleTwo />
-            </div>
+
+            <CyberSecurityOperation />
+
+            <LatesNews />
+            
             <Footer />
         </>
     )
 }
 
-export default Index5;
+export default Index;

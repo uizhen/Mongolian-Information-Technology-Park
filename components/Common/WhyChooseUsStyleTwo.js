@@ -14,21 +14,22 @@ const WhyChooseUsStyleTwo = () => {
 
 					<div className="col-lg-6">
 						<div className="choose-wrap p-0">
-							<h2>Why Choose Us</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.</p>
+							<h2>Яагаад ITPark вэ?</h2>
+							<p>Олон жилийн чадвар туршлагатай хамт олон дэлхийд өрсөлдөх Монгол мэдээллийн технологийн инженерийг хөгжүүлэн дэлхийд гарах
+								Монгол технологийг гаргахад туслах нь бидний үнэт зүйл юм.</p>
 		
 							<ul className="mt-30">
 								<li>
 									<i className="bx bx-check"></i>
-									Extemly low response  time at all time
+									Тохилог, тав тухтай ажлын байр
 								</li>
 								<li>
 									<i className="bx bx-check"></i>
-									We are always ready for your growth
+									Нөхөрсөг, чадварлаг зөвлөгөө
 								</li>
 								<li>
 									<i className="bx bx-check"></i>
-									We understand security and compliance
+									Дэмжлэг, тусламж, урамшуулал
 								</li>
 							</ul>
 

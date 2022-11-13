@@ -83,9 +83,9 @@ const PricingPlan = () => {
 								</li>
 							</ul>
 
-							<Link href="/contact">
-                                <a className="default-btn">Order Now</a>
-                            </Link>
+							{/* <Link href="/contact"> */}
+							<a className="default-btn" href="https://drive.google.com/uc?export=download&id=1nhhexA_p6MvfTj52B7oMfSW717ljSrP_" download>Журам татах</a>
+                            {/* </Link> */}
 						</div>
 					</div>
 

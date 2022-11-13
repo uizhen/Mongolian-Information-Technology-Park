@@ -45,35 +45,35 @@ const Partner = () => {
                     <div className="partner-item">
                         <img src="/img/partners/partner1.png" alt="Image" />
                         
-                        <a className="partner-overly" href="#" target="_blank">
+                        <a className="partner-overly" href="https://crc.gov.mn/" target="_blank">
                             <img src="/img/partners/hover-partner1.png" alt="Image" />
                         </a>
                     </div>
 
                     <div className="partner-item">
                         <img src="/img/partners/partner2.png" alt="Image" />
-                        <a className="partner-overly" href="#" target="_blank">
+                        <a className="partner-overly" href="https://e-mongolia.mn/home" target="_blank">
                             <img src="/img/partners/hover-partner2.png" alt="Image" />
                         </a>
                     </div>
 
                     <div className="partner-item">
                         <img src="/img/partners/partner3.png" alt="Image" />
-                        <a className="partner-overly" href="#" target="_blank">
+                        <a className="partner-overly" href="https://mddc.gov.mn/" target="_blank">
                             <img src="/img/partners/hover-partner3.png" alt="Image" />
                         </a>
                     </div>
                     
                     <div className="partner-item">
                         <img src="/img/partners/partner4.png" alt="Image" />
-                        <a className="partner-overly" href="#" target="_blank">
+                        <a className="partner-overly" href="https://www.mongolpost.mn/" target="_blank">
                             <img src="/img/partners/hover-partner4.png" alt="Image" />
                         </a>
                     </div>
 
                     <div className="partner-item">
                         <img src="/img/partners/partner5.png" alt="Image" />
-                        <a className="partner-overly" href="#" target="_blank">
+                        <a className="partner-overly" href="http://www.telecommongolia.mn/" target="_blank">
                             <img src="/img/partners/hover-partner5.png" alt="Image" />
                         </a>
                     </div>

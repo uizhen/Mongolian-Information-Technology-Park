@@ -6,19 +6,20 @@ const HighPerformanceSolutions = () => {
         <section className="performance-area bg-none pb-70">
 			<div className="container">
 				<div className="section-title">
-					<h2>High-Performance Solutions</h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam neque quibusdam corrupti aspernatur corporis alias nisi dolorum expedita veritatis voluptates minima.</p>
+					<h2>Монголын мэдээлэл холбооны үндэсний парк</h2>
+					<p>Та бүхэнтэй дараах байдлаар хамтран ажиллах боломжтой юм. Мэдлэг мэдээлэлд тулгуурлан асар хурдацтай хөгжиж буй энэ 
+						зуунд бид та бүхний найдвартай хөтөч байх бөгөөд мэдээллийн технологийн салбарын ертөнцөөр хамтдаа аялцгаая.</p>
 				</div>
 
 				<div className="row">
 					<div className="col-lg-4 col-sm-6">
 						<div className="single-security">
 							<i className="flaticon-website"></i>
-							<h3>Confidential Information</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur</p>
-
+							<h3>Олон улсын шалгалт</h3>
+							<p>Таньд гадаад болон дотоодын мэдээлэл технологийн байгууллагатай хамтран ажиллах, гэрээгээр ажиллах боломжийг нээнэ.</p>
+								
                             <Link href="/service-details">
-                                <a className="read-more">Read More</a>
+                                <a className="read-more">Дэлгэрэнгүй</a>
                             </Link>
 
 							<img src="/img/shape/shape4.png" alt="Image" />
@@ -28,11 +29,11 @@ const HighPerformanceSolutions = () => {
 					<div className="col-lg-4 col-sm-6">
 						<div className="single-security">
 							<i className="flaticon-profile"></i>
-							<h3>Mobile Security</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur</p>
-	
+							<h3>Сургалтын төв</h3>
+							<p>Мэдээллийн технологийн чадварлаг мэргэжилтэн бэлтгэх сургалт нь та бүхэнд ирээдүйн асар том боломжийг олгох юм.</p>
+
 							<Link href="/service-details">
-                                <a className="read-more">Read More</a>
+                                <a className="read-more">Дэлгэрэнгүй</a>
                             </Link>
 							
                             <img src="/img/shape/shape4.png" alt="Image" />
@@ -42,11 +43,11 @@ const HighPerformanceSolutions = () => {
 					<div className="col-lg-4 col-sm-6">
 						<div className="single-security">
 							<i className="flaticon-content"></i>
-							<h3>Website Protection</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur</p>
+							<h3>Танхим түрээс</h3>
+							<p>Хүн бүртбаг хамт олноороо нийлж өөрсдийн санааг бодит болгох хямд, тохилог танхимыг бид санал болгож байна.</p>
 	
 							<Link href="/service-details">
-                                <a className="read-more">Read More</a>
+                                <a className="read-more">Дэлгэрэнгүй</a>
                             </Link>
 							
                             <img src="/img/shape/shape4.png" alt="Image" />
@@ -56,11 +57,11 @@ const HighPerformanceSolutions = () => {
 					<div className="col-lg-4 col-sm-6">
 						<div className="single-security">
 							<i className="flaticon-cyber"></i>
-							<h3>Hacking Protection</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur</p>
+							<h3>Бизнес инкубатор</h3>
+							<p>Шинэ санаагаа бизнес болгож буй залуу эрдэмтэн судлаачдад туршлагатай зөвлөх болон туслах үйлчилгээг бид хүргэнэ.</p>
 	
 							<Link href="/service-details">
-                                <a className="read-more">Read More</a>
+                                <a className="read-more">Дэлгэрэнгүй</a>
                             </Link>
 							
                             <img src="/img/shape/shape4.png" alt="Image" />
@@ -70,11 +71,11 @@ const HighPerformanceSolutions = () => {
 					<div className="col-lg-4 col-sm-6">
 						<div className="single-security">
 							<i className="flaticon-profile"></i>
-							<h3>Mobile Security</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur</p>
+							<h3>Инновацийн дэлгүүр</h3>
+							<p>Монгол инженерүүдийн тархинаас урган гарсан бүтээлүүдийг дэлхийн тавцанд гаргах нь бидний эрхэм зорилго.</p>
 	
 							<Link href="/service-details">
-                                <a className="read-more">Read More</a>
+                                <a className="read-more">Дэлгэрэнгүй</a>
                             </Link>
 							
                             <img src="/img/shape/shape4.png" alt="Image" />
@@ -84,11 +85,11 @@ const HighPerformanceSolutions = () => {
 					<div className="col-lg-4 col-sm-6">
 						<div className="single-security">
 							<i className="flaticon-profile"></i>
-							<h3>Mobile Security</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet, dolor consectetur</p>
+							<h3>Ном, гарын авлага</h3>
+							<p>Монголын мэдээлэл технологийн салбарын эрдэмтдийн бүтээлийг дэлхийн хэмжээний стандартад оруулах.</p>
 	
 							<Link href="/service-details">
-                                <a className="read-more">Read More</a>
+                                <a className="read-more">Дэлгэрэнгүй</a>
                             </Link>
 							
                             <img src="/img/shape/shape4.png" alt="Image" />

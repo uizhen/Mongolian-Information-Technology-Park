@@ -6,15 +6,17 @@ const TeamCard = () => {
         <section className="team-area ptb-100">
             <div className="container">
                 <div className="section-title">
-                    <h2>Our Expert Team</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    <h2>Байгууллагын шилдэг гишүүд</h2>
+                    <p>Аливаа ажлыг хийж гүйцэтгэхэд шилдэг баг, хамт олон хамгийн түрүүнд шаардагддаг. Энэхүү олон жилийн хугацаанд идэвхи санаачлагатай
+                        ажиллаж ирсэн та бүхэндээ баярлалаа.
+                    </p>
                 </div>
 
                 <div className="row">
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team1.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -41,8 +43,8 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Peter Pers</h3>
-                                <span>Director</span>
+                                <h3>Б.Давхарбаяр</h3>
+                                <span>Хүний нөөцийн мэргэжилтэн</span>
                             </div>
                         </div>
                     </div>
@@ -50,7 +52,7 @@ const TeamCard = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team2.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -77,8 +79,8 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Sarah Swift</h3>
-                                <span>Executive</span>
+                                <h3>Д.Цэрэндолгор</h3>
+                                <span>Ерөнхий нягтлан бодогч</span>
                             </div>
                         </div>
                     </div>
@@ -86,7 +88,7 @@ const TeamCard = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team3.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -113,8 +115,8 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Alita Scot</h3>
-                                <span>Programmer</span>
+                                <h3>Ж.Уянга</h3>
+                                <span>Нярав</span>
                             </div>
                         </div>
 					</div>
@@ -122,7 +124,7 @@ const TeamCard = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team4.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -149,8 +151,8 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Denial James</h3>
-                                <span>CEO</span>
+                                <h3>Ч.Сувд</h3>
+                                <span>Мэдээллийн технологийн зөвлөх</span>
                             </div>
                         </div>
 					</div>
@@ -158,7 +160,7 @@ const TeamCard = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team5.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -185,8 +187,8 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Killv Smith</h3>
-                                <span>Regional Leader</span>
+                                <h3>Н.Мөнхбаяр</h3>
+                                <span>Гадаад харилцааны мэргэжилтэн</span>
                             </div>
                         </div>
 					</div>
@@ -194,7 +196,7 @@ const TeamCard = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team6.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -221,8 +223,8 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Kilva Smith</h3>
-                                <span>Web Deringer</span>
+                                <h3>Сургалтын менежер</h3>
+                                <span>С.Номин</span>
                             </div>
                         </div>
 					</div>
@@ -230,7 +232,7 @@ const TeamCard = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team7.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -257,8 +259,8 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Zinkel Dew</h3>
-                                <span>Graphics Designer</span>
+                                <h3>Д.Оюун-Эрдэнэ</h3>
+                                <span>Старт-Ап</span>
                             </div>
                         </div>
 					</div>
@@ -266,7 +268,7 @@ const TeamCard = () => {
                     <div className="col-lg-3 col-sm-6">
                         <div className="single-team">
                             <div className="image">
-                                <img src="/img/team/team8.jpg" alt="image" />
+                                <img src="/img/man.png" alt="image" />
     
                                 <ul className="social">
                                     <li>
@@ -293,14 +295,14 @@ const TeamCard = () => {
                             </div>
     
                             <div className="content">
-                                <h3>Thomas Olsen</h3>
-                                <span>Founder & CEO</span>
+                                <h3>Б.Цэрэнбаатар</h3>
+                                <span>Бенч Брокер</span>
                             </div>
                         </div>
 					</div>
 					
 					{/* Pagination */}
-					<div className="col-lg-12">
+					{/* <div className="col-lg-12">
 						<div className="page-navigation-area">
                             <ul className="pagination">
                                 <li className="page-item">
@@ -334,7 +336,7 @@ const TeamCard = () => {
                                 </li>
                             </ul>
 						</div>
-					</div>
+					</div> */}
                 </div>
             </div>
         </section>
