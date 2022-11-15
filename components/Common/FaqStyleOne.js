@@ -12,7 +12,7 @@ const FaqStyleOne = () => {
         <section className="faq-area ptb-100">
 			<div className="container">
 				<div className="section-title">
-					<h2>Frequently Asked Questions</h2>
+					<h2>Түгээмэл асуултууд</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
 				</div>
 

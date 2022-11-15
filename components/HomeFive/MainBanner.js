@@ -51,6 +51,7 @@ const MainBanner = () => {
 				{...options}
 			> 
 				<div className="slider-item slider-item-bg-1">
+					
 					<div className="d-table">
 						<div className="d-table-cell">
 							<div className="container">
@@ -59,7 +60,6 @@ const MainBanner = () => {
 										<div className="slider-text one">
 											<h1>Welcome to Mongolian National Information Technology Park</h1>
 											<p>Монголын хамгийн мэдээллийн технологийн парк нь үүсгэн байгуулагдаад даруй дөчин жилийг өнгөрөөжээ.</p>
-		
 											<div className="slider-btn">
 												<Link href="/contact">
 													<a className="default-btn">

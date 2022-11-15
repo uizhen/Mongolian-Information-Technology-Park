@@ -1,6 +1,4 @@
 /*
-@File: Pisa Template Styles
-
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
 template.
@@ -415,7 +413,7 @@ Header Area Style
 Nav Area Style
 ======================================================*/
 .nav-area .container-fluid {
-  padding-left: 50px;
+  padding-left: 250px;
   padding-right: 50px;
 }
 

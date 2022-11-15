@@ -12,8 +12,10 @@ const FaqStyleTwo = () => {
         <section className="faq-area ptb-100">
 			<div className="container">
 				<div className="section-title">
-					<h2>Frequently Asked Questions</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+					<h2>Түгээмэл асуултууд</h2>
+					<p>Мэдээлэл технологийн үндэсний парк нь мэдээллийн технологийн чиглэлийн бүх төрлийн үйлчилгээг үзүүлдэг бөгөөд
+                        манай байгууллагын холбогдо утсаар бүх мэдээллийг авах боломжтой.
+                    </p>
 				</div>
 
 				<div className="row align-items-center">
@@ -29,72 +31,86 @@ const FaqStyleTwo = () => {
                                 <AccordionItem uuid="a">
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
-											What's The Difference Between IDS And IBS?
+											Танай байгууллага ямар сургалт явуулдаг вэ?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 
                                     <AccordionItemPanel>
-										<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit. Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas voluptates maxime unde</p>
+										<p>Мэдээллийн аюулгүй байдал болон мэдээллийн технологийн салбарын хамгийн эрэлттэй мэргэжил болох хөгжүүлэлтийн
+                                            анхан шатнаас ахисан түвшний сургалт болон хүүхдүүдэд чиглэсэн олон төрлийн сургалтыг явуулдаг.
+                                        </p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
 
                                 <AccordionItem uuid="b">
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
-											How Is Encryption Different From Hacking
+											Сургалтуудын үнэ ханш хэдэн төгрөг вэ?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 
                                     <AccordionItemPanel>
-										<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit. Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas voluptates maxime unde</p>
+										<p>Мэдээлэл холбооны үндэсний паркийн сургалтууд түвшин болон сургалтын зэрэглэлээс хамааран 250.000-350.000
+                                            төгрөгний хооронд байдаг бөгөөд илүү дэлгэрэнгүй мэдээллийг зөвлөхөөс авах боломжтой.
+                                        </p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
 
 								<AccordionItem uuid="c">
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
-											What Is Firewall And Why It Is Used?
+											Мэдээллийн технологийн шалгалтыг хэн өгч болох вэ?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 
                                     <AccordionItemPanel>
-										<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit. Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas voluptates maxime unde</p>
+										<p>Мэдээллийн технологитой холбоотой ажил хөдөлмөр эрхэлдэг болон энэ чиглэлээр суралцдаг хэн бүхэн мэдээллийн
+                                            технологийн инженерийн шалгалт болон топсит шалгалтыг өгөх боломжтой. Харин өдөр тутмын хэрэглээндээ компьютер
+                                            хэрэглэдэг хэн бүхэн ICDL шалгалтыг өгөх боломжтой.
+                                        </p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
 
 								<AccordionItem uuid="d">
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
-											What Steps Will You Take To Secure server
+											Мэдээллийн технологийн шалтгалтыг ямар хэлбэрээр авдаг вэ?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 
                                     <AccordionItemPanel>
-										<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit. Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas voluptates maxime unde</p>
+										<p>Мэдээллийн технологийн инженерийн шалгалтыг Англи болон Монгол хэлээр зөвхөн танхимаар өгнө. Топсит шалгалтыг
+                                            зөвхөн Англи хэл дээр танхимаар өгдөг бол ICDL шалгалтыг Англи хэл дээр танхимаас гадна цахимаар өгөх боломжтой.
+                                        </p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
 
 								<AccordionItem uuid="e">
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
-											What Is Firewall And Why It Is Used?
+											Танхим түрээслэхэд хөнгөлөлт байдаг уу?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 
                                     <AccordionItemPanel>
-										<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit. Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas voluptates maxime unde</p>
+										<p>Хамтын ажиллагааны гэрээтэй байгууллагуудад үйл ажиллагааны онцлогоос хамааран 20-30 хувиар, инкубатор компаниудад
+                                            40-50 хувиар, 30-с дээш цагийн сургалт явуулах гэрээ байгуулсан байгууллагуудад нийт үнийн дүнгээс 20 хувиар хөнгөлөлт
+                                            үзүүлдэг.
+                                        </p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
 
 								<AccordionItem uuid="f">
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
-											What's The Difference Between IDS And IBS?
+											Хэрхэн инкубатор компаниар элсэх вэ?
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 
                                     <AccordionItemPanel>
-										<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit. Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas voluptates maxime unde</p>
+										<p>Мэдээлэл технологийн үндэсний паркийн мэдээлэл технологийн инкубаторын үйл ажиллагааны журамтай танилцан өөрсдийн гаргаж
+                                            буй шинэ санааг элсэлт авах өдөр хүлээлгэн өгснөөр хүсэлтийг хүлээн авч шийдвэрлэх болно.
+                                        </p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
                             </Accordion>
