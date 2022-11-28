@@ -292,6 +292,102 @@ const Navbar = () => {
                               </li>
                             </ul>
                           </li>
+                          <li className="nav-item">
+                            <Link href="/#">
+                              <a
+                                onClick={(e) => e.preventDefault()}
+                                className="nav-link"
+                              >
+                                User <i className="bx bx-chevron-down"></i>
+                              </a>
+                            </Link>
+
+                            <ul className="dropdown-menu">
+                              <li className="nav-item">
+                                <Link href="/sign-in" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign In
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link href="/sign-up" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign Up
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Forgot Password
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
+                          </li>
+                          <li className="nav-item">
+                            <Link href="/#">
+                              <a
+                                onClick={(e) => e.preventDefault()}
+                                className="nav-link"
+                              >
+                                User <i className="bx bx-chevron-down"></i>
+                              </a>
+                            </Link>
+
+                            <ul className="dropdown-menu">
+                              <li className="nav-item">
+                                <Link href="/sign-in" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign In
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link href="/sign-up" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign Up
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Forgot Password
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
+                          </li>
 
                           <li className="nav-item">
                             <Link href="/coming-soon" activeClassName="active">
@@ -516,7 +612,7 @@ const Navbar = () => {
                                 onClick={() => setCollapsed(true)}
                                 className="nav-link"
                               >
-                                Pricing
+                                МТҮП-ын бодлогын баримт бичиг
                               </a>
                             </Link>
                           </li>
@@ -527,7 +623,7 @@ const Navbar = () => {
                                 onClick={() => setCollapsed(true)}
                                 className="nav-link"
                               >
-                                Testimonials
+                                Удирдах байгууллагын тогтоолууд
                               </a>
                             </Link>
                           </li>
@@ -538,7 +634,7 @@ const Navbar = () => {
                                 onClick={() => setCollapsed(true)}
                                 className="nav-link"
                               >
-                                Team
+                                байгууллагын дүрэм журам
                               </a>
                             </Link>
                           </li>
@@ -549,7 +645,7 @@ const Navbar = () => {
                                 onClick={() => setCollapsed(true)}
                                 className="nav-link"
                               >
-                                FAQ
+                                Удирдах тушаал
                               </a>
                             </Link>
                           </li>
@@ -560,7 +656,8 @@ const Navbar = () => {
                                 onClick={(e) => e.preventDefault()}
                                 className="nav-link"
                               >
-                                User <i className="bx bx-chevron-down"></i>
+                                Хууль тогтоомж{" "}
+                                <i className="bx bx-chevron-down"></i>
                               </a>
                             </Link>
 
@@ -571,7 +668,7 @@ const Navbar = () => {
                                     onClick={() => setCollapsed(true)}
                                     className="nav-link"
                                   >
-                                    Sign In
+                                    Монгол улсын хууль
                                   </a>
                                 </Link>
                               </li>
@@ -582,7 +679,7 @@ const Navbar = () => {
                                     onClick={() => setCollapsed(true)}
                                     className="nav-link"
                                   >
-                                    Sign Up
+                                    Хөгжлийн бодлого
                                   </a>
                                 </Link>
                               </li>
@@ -596,7 +693,7 @@ const Navbar = () => {
                                     onClick={() => setCollapsed(true)}
                                     className="nav-link"
                                   >
-                                    Forgot Password
+                                    Хөгжлийн хөтөлбөрүүд
                                   </a>
                                 </Link>
                               </li>
@@ -666,49 +763,128 @@ const Navbar = () => {
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
-                            <Link href="/pricing" activeClassName="active">
+                            <Link href="/#">
                               <a
-                                onClick={() => setCollapsed(true)}
+                                onClick={(e) => e.preventDefault()}
                                 className="nav-link"
                               >
-                                Pricing
+                                User <i className="bx bx-chevron-down"></i>
                               </a>
                             </Link>
+
+                            <ul className="dropdown-menu">
+                              <li className="nav-item">
+                                <Link href="/sign-in" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign In
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link href="/sign-up" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign Up
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Forgot Password
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
                           </li>
 
                           <li className="nav-item">
-                            <Link href="/testimonials" activeClassName="active">
+                            <Link href="/coming-soon" activeClassName="active">
                               <a
                                 onClick={() => setCollapsed(true)}
                                 className="nav-link"
                               >
-                                Testimonials
+                                Coming Soon
                               </a>
                             </Link>
+                          </li>
+                        </ul>
+                        <ul className="dropdown-menu">
+                          <li className="nav-item">
+                            <Link href="/#">
+                              <a
+                                onClick={(e) => e.preventDefault()}
+                                className="nav-link"
+                              >
+                                Үйл ажилгааны ил тод байдал{" "}
+                                <i className="bx bx-chevron-down"></i>
+                              </a>
+                            </Link>
+
+                            <ul className="dropdown-menu">
+                              <li className="nav-item">
+                                <Link href="/sign-in" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign In
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link href="/sign-up" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign Up
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Forgot Password
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
                           </li>
 
                           <li className="nav-item">
-                            <Link href="/team" activeClassName="active">
+                            <Link href="/coming-soon" activeClassName="active">
                               <a
                                 onClick={() => setCollapsed(true)}
                                 className="nav-link"
                               >
-                                Team
+                                Coming Soon
                               </a>
                             </Link>
                           </li>
-
-                          <li className="nav-item">
-                            <Link href="/faq" activeClassName="active">
-                              <a
-                                onClick={() => setCollapsed(true)}
-                                className="nav-link"
-                              >
-                                FAQ
-                              </a>
-                            </Link>
-                          </li>
-
+                        </ul>
+                        <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link href="/#">
                               <a
@@ -768,44 +944,144 @@ const Navbar = () => {
                               </a>
                             </Link>
                           </li>
+                        </ul>
 
+                        <ul className="dropdown-menu">
                           <li className="nav-item">
-                            <Link href="/404" activeClassName="active">
+                            <Link href="/#">
                               <a
-                                onClick={() => setCollapsed(true)}
+                                onClick={(e) => e.preventDefault()}
                                 className="nav-link"
                               >
-                                404 Error Page
+                                Үйл ажилгааны ил тод байдал{" "}
+                                <i className="bx bx-chevron-down"></i>
                               </a>
                             </Link>
+
+                            <ul className="dropdown-menu">
+                              <li className="nav-item">
+                                <Link href="/sign-in" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Үйл ажиллагааны төлөвлөгөө
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link href="/sign-up" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Үйл ажиллагааны тайлан
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Хяналт шалгалт
+                                  </a>
+                                </Link>
+                              </li>
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Өргөдөл гомдлын шийдвэрлэлт
+                                  </a>
+                                </Link>
+                              </li>
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Статистик
+                                  </a>
+                                </Link>
+                              </li>
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Тусгай зөвшөөрөл
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
                           </li>
-
                           <li className="nav-item">
-                            <Link
-                              href="/privacy-policy"
-                              activeClassName="active"
-                            >
+                            <Link href="/#">
                               <a
-                                onClick={() => setCollapsed(true)}
+                                onClick={(e) => e.preventDefault()}
                                 className="nav-link"
                               >
-                                Privacy Policy
+                                User <i className="bx bx-chevron-down"></i>
                               </a>
                             </Link>
-                          </li>
 
-                          <li className="nav-item">
-                            <Link
-                              href="/terms-conditions"
-                              activeClassName="active"
-                            >
-                              <a
-                                onClick={() => setCollapsed(true)}
-                                className="nav-link"
-                              >
-                                Terms & Conditions
-                              </a>
-                            </Link>
+                            <ul className="dropdown-menu">
+                              <li className="nav-item">
+                                <Link href="/sign-in" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign In
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link href="/sign-up" activeClassName="active">
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Sign Up
+                                  </a>
+                                </Link>
+                              </li>
+
+                              <li className="nav-item">
+                                <Link
+                                  href="/forgot-password"
+                                  activeClassName="active"
+                                >
+                                  <a
+                                    onClick={() => setCollapsed(true)}
+                                    className="nav-link"
+                                  >
+                                    Forgot Password
+                                  </a>
+                                </Link>
+                              </li>
+                            </ul>
                           </li>
                         </ul>
                       </li>
